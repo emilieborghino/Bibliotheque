@@ -1,6 +1,7 @@
 package mainBiblio;
 
-public class Client {
+public class Client 
+{
 	
 	private String nom, prenom, email, tel;
 	private int numCl;

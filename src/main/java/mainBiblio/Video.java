@@ -1,6 +1,7 @@
 package mainBiblio;
 
-public class Video extends Article{
+public class Video extends Article
+{
 
 	private String realisateur;
 
@@ -8,7 +9,6 @@ public class Video extends Article{
 		super(nom, genre, "Video");
 		this.realisateur = auteur;
 	}
-	
 
 	public String getRealisateur() {
 		return realisateur;

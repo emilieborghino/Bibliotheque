@@ -1,7 +1,8 @@
 package mainBiblio;
 
 
-public class Article{
+public class Article
+{
 
 	protected String nom;
 	protected String genre;
@@ -33,6 +34,5 @@ public class Article{
 	public String getType() {
 		return type;
 	}
-
 	
 }
